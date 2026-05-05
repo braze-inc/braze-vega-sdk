@@ -2,17 +2,23 @@
 
 ## Installation
 
-While Vega is in pre-release, the Braze Vega SDK is installed as a local package through npm. We recommend copying the `braze` folder from the extracted tarball to your preferred directory.
+Install the Braze Vega SDK from npm. Required dependencies (`react-native-url-polyfill`, `@braze/javascript-sdk`, and `@amazon-devices/react-native-mmkv`) are declared by the package and will be installed automatically.
 
-Then, add the Braze Vega SDK to your `package.json`:
-
-```json
-{
-  "dependencies": {
-    "@braze/vega-sdk": "../vega-sdk" // replace file path with your relative file path
-  }
-}
+```bash
+npm install @braze/vega-sdk
 ```
+
+Or with yarn:
+
+```bash
+yarn add @braze/vega-sdk
+```
+
+The SDK declares the following runtime dependencies; your package manager will install them when you install `@braze/vega-sdk`:
+
+- `react-native-url-polyfill` – URL API polyfill for React Native
+- `@braze/javascript-sdk` – Braze JavaScript SDK (core functionality)
+- `@amazon-devices/react-native-mmkv` – Storage backend for the Vega platform
 
 ## Usage
 
@@ -84,7 +90,7 @@ import {
 
 const App = () => {
   useEffect(() => {
-    const initBraze() = async () => {
+    const initBraze = async () => {
       initialize("YOUR-API-KEY", "YOUR-SDK-ENDPOINT", {
         sessionTimeoutInSeconds: 60,
         appVersionNumber: "1.2.3.4",
@@ -109,4 +115,4 @@ Pass `enableLogging: true` to `initialize()` or use `toggleLogging()` to enable 
 
 ## Support & Feedback
 
-Have feedback on the SDK or encountering an issue? Reach out to us at vega-braze-sdk-support@braze.com
+Have feedback on the SDK or encountering an issue? Reach out to us at support@braze.com

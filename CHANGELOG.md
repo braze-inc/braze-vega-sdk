@@ -1,3 +1,12 @@
+## 0.4.0
+
+##### Added
+- Exposed `VegaInitializationOptions` as part of the public API. Consumers can now import this type to type the options parameter of `initialize()`.
+- Added TypeScript documentation generation via TypeDoc.
+
+##### Removed
+- Removed the S3/tarball distribution channel. The Braze Vega SDK is now distributed exclusively via npm (`npm install @braze/vega-sdk`).
+
 ## 0.3.0
 - Updated `@braze/javascript-sdk` to 0.3.0, which fixes rate-limiting issues. See the [JavaScript SDK changelog](https://github.com/braze-inc/braze-javascript-sdk/blob/main/CHANGELOG.md) for the full list of changes.
 
