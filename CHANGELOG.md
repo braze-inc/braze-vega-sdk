@@ -1,3 +1,8 @@
+## 0.4.1
+
+##### Fixed
+- Updated the Braze JavaScript SDK to 0.3.2. See the JavaScript SDK [changelog](https://github.com/braze-inc/braze-javascript-sdk/blob/main/CHANGELOG.md) for more details.
+
 ## 0.4.0
 
 ##### Added
