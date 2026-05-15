@@ -1,0 +1,25 @@
+/**
+ * Braze TypeDoc theme overrides.
+ *
+ * Loaded after the default TypeDoc style.css.
+ * Contains only Braze-specific customizations — all base styling
+ * is inherited from the default theme.
+ */
+
+:root {
+  --color-braze-primary: #621eb8;
+  --color-braze-secondary: #efe9f8;
+  --color-braze-text: #eff0f1;
+}
+
+/* Toolbar: Braze purple background with white text and icons */
+.tsd-page-toolbar {
+  color: var(--color-braze-text);
+  background: var(--color-braze-primary);
+  --color-icon-text: var(--color-braze-text);
+}
+
+.tsd-page-toolbar a,
+.tsd-page-toolbar button {
+  color: var(--color-braze-text);
+}
