@@ -1,3 +1,8 @@
+## 0.4.2
+
+##### Fixed
+- Fixed the published npm package dependency on `@braze/javascript-sdk` to use version 0.3.2.
+
 ## 0.4.1
 
 ##### Fixed
