@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install the Braze Vega SDK from npm. Required dependencies (`react-native-url-polyfill`, `@braze/javascript-sdk`, and `@amazon-devices/react-native-mmkv`) are declared by the package and will be installed automatically.
+Install the Braze Vega SDK from npm. Required dependencies (`react-native-url-polyfill`, `@braze/javascript-sdk`, `@amazon-devices/react-native-mmkv`, and `@amazon-devices/react-native-kepler`) are declared by the package and will be installed automatically.
 
 ```bash
 npm install @braze/vega-sdk
@@ -19,6 +19,7 @@ The SDK declares the following runtime dependencies; your package manager will i
 - `react-native-url-polyfill` – URL API polyfill for React Native
 - `@braze/javascript-sdk` – Braze JavaScript SDK (core functionality)
 - `@amazon-devices/react-native-mmkv` – Storage backend for the Vega platform
+- `@amazon-devices/react-native-kepler` – Vega platform APIs used for device information
 
 ## Usage
 

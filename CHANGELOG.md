@@ -1,3 +1,8 @@
+## 0.4.3
+
+##### Fixed
+- Fixed the published npm package dependency list to include `@amazon-devices/react-native-kepler`.
+
 ## 0.4.2
 
 ##### Fixed
