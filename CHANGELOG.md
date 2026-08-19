@@ -1,3 +1,9 @@
+## 0.5.0
+
+##### Changed
+- Updated dependencies for compatibility with Vega OS 0.24 and React Native 0.83.
+- Updated `@braze/javascript-sdk` to [0.3.5](https://github.com/braze-inc/braze-javascript-sdk/blob/main/CHANGELOG.md#035), which improves React Native URL handling. The `react-native-url-polyfill` runtime dependency is no longer required and has been removed.
+
 ## 0.4.4
 
 ##### Fixed
